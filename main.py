@@ -14,7 +14,7 @@ from discord.voice_client import VoiceClient
 class CustomVoiceClient(VoiceClient):
     pass
 intents = discord.Intents.all()
-TOKEN = 'MTEwOTU0NDM1NDQ4MzI5NDIzOA.GkdK66.R8mwk_aHon3YserNu0QJncZT64AF2TIMo77kPI'
+TOKEN = ''
 name = "肚肚"
 newBear = Bear.Bear(name)
 bot = discord.Client(intents=intents)
